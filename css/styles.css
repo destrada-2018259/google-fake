@@ -1,0 +1,93 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+}
+header{
+    max-height: 20px;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    margin-left:1500px;
+}
+
+.navbar li{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: strong;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista1{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 30px;
+}
+
+.lista1 li{
+    margin-left: 20px;
+}
+.lista1 li button{
+    background-color: rgb(234, 233, 233);
+    border-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.lista1 li button:hover{
+    text-decoration-line: underline;
+    cursor:pointer;
+    background-color: rgb(219, 219, 219);
+}
+.container input{
+    width: 800px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: antiquewhite;
+}
+
+.listaFooter{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.listaFooter li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.listaFooter li button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: lighter;
+}
+.listaFooter li button:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+.footer{
+    height: 50px;
+}
+.principal{
+    height: 800px;
+    width: 100%;
+}
+.logo{
+    margin-top: 150px;
+    margin-bottom: 0;
+}
